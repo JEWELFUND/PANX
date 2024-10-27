@@ -3,7 +3,6 @@ os.system('xdg-open https://chat.whatsapp.com/FlNtRX6YAzGFcixuvuuSbo')
 try:
  import requests
 except:os.system("pip uninstall requests -y;pip install requests")
- try:
   uuid = str(os.geteuid()) + str(os.getlogin()) 
   id = "|".join(uuid) 
   os.system('clear')
